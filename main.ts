@@ -1,2 +1,8 @@
 OLED.init(128, 64)
 OLED.writeStringNewLine("Hello Bell 3")
+basic.pause(5000)
+OLED.clear()
+OLED.writeStringNewLine("Why did the bike fall over?")
+basic.pause(5000)
+OLED.clear()
+OLED.writeStringNewLine("It was two-tired")
